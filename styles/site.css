@@ -251,6 +251,7 @@ margin-top: 5px;
   margin-left: 1%;
   height: 550px!important;
   background-color: rgb(188, 186, 186);
+  border-radius: 5px;
   
 }
 
@@ -261,6 +262,7 @@ margin-top: 5px;
 
 .sidebar-photo img{
   width: 100%;
+  border-radius: 3px;
 }
 
 
@@ -271,6 +273,7 @@ margin-top: 5px;
   transition: box-shadow 0.5s;
   margin: 10px;
   /* width: 500px; */
+  border-radius: 5px;
 }
 
 .gallery-photo:hover {
@@ -278,6 +281,7 @@ margin-top: 5px;
 }
 .gallery-photo img{
   width: 100%;
+  border-radius: 3px;
 }
 
 
@@ -336,6 +340,7 @@ h3.name{
  align-items: center;
  background-color: rgb(188, 186, 186);
  flex-direction: column;
+ border-radius: 5px;
 }
 
   /* Make the navigation links responsive */

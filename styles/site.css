@@ -296,6 +296,12 @@ margin-top: 5px;
   text-align: center!important;
   font-family: 'Montserrat', sans-serif;
 }
+.title a{
+  font-size: 18px;
+  color: rgb(75, 72, 72);
+  text-align: center!important;
+  font-family: 'Montserrat', sans-serif;
+}
 
 
 .footer-about{

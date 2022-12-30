@@ -278,6 +278,7 @@ margin-top: 5px;
   margin: 10px;
   /* width: 500px; */
   border-radius: 5px;
+  background-color: white;
 }
 
 .gallery-photo:hover {
@@ -342,10 +343,13 @@ h3.name{
  flex-wrap: wrap;
  justify-content: center;
  align-items: center;
- background-color: rgb(188, 186, 186);
+ background-color: rgba(237, 231, 231, 0.976);
  flex-direction: column;
  border-radius: 5px;
 }
+
+
+
 
   /* Make the navigation links responsive */
 

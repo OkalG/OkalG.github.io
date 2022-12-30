@@ -347,6 +347,11 @@ h3.name{
  flex-direction: column;
  border-radius: 5px;
 }
+h3.sticky{
+  position: sticky;
+  top: 0px;
+  background-color: #fff;
+}
 
 
 
@@ -595,14 +600,13 @@ h3.name{
       width: 300px;
       /* height: 300px; */
     }
-    .photo-gallery {
-      border-radius: 20px; /* round the corners of the border */
-      border-width: 0 30px 0 30px;
-      border-style: solid;
-      border-color:gray;
-      flex-direction: row;
+    .footer-about{
+      position: sticky;
+      bottom: 0;
+      background-color: #fff;
     }
-  
+
+   
   
     
   }

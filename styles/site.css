@@ -262,6 +262,25 @@ margin-top: 5px;
 .sidebar-photo img{
   width: 100%;
 }
+
+
+.gallery-photo {
+  border: 2px solid transparent;
+  border-radius: 5px;
+  box-shadow: 0 0 0 2px rgba(0,0,0,0.5);
+  transition: box-shadow 0.5s;
+  margin: 10px;
+  /* width: 500px; */
+}
+
+.gallery-photo:hover {
+  box-shadow: 0 0 0 4px rgba(0,0,0,0.5);
+}
+.gallery-photo img{
+  width: 100%;
+}
+
+
 .title{
   font-size: 18px;
   color: rgb(75, 72, 72);
@@ -308,6 +327,15 @@ h3.name{
 }
 .footer-about{
   margin-bottom: 20px!important;
+}
+.photo-gallery{
+  display: flex;
+ margin: 2%;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ background-color: rgb(188, 186, 186);
+ flex-direction: column;
 }
 
   /* Make the navigation links responsive */
@@ -549,15 +577,18 @@ h3.name{
     .zeraki-about1{
       text-align: right;
     }
+    .gallery-photo{
+      width: 500px;
+    }
   
     
   }
+  @media (min-width: 1024px){
+    .gallery-photo{
+      width: 500px;
+    }
 
-
-
-
-
-
+  }
   
   
   

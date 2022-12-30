@@ -6,11 +6,11 @@
 
 body{
     height: 100%;
-
 }
 header{
   width: 100vw!important;
-  background-color: rgb(72, 72, 75)
+  background-color: rgb(72, 72, 75);
+  max-width: 1600px;
 }
 
 .topNav {
@@ -72,6 +72,7 @@ header{
     padding-right: 5%; 
     margin-left:5% ;
     background-color: #fff;
+    max-width: 1600px;
   
   }
   .container {
@@ -248,7 +249,7 @@ margin-top: 5px;
   /* background-color: rgb(75, 72, 72)!important; */
   margin-top: 3%;
   margin-left: 1%;
-  height: 545px!important;
+  height: 600px!important;
   
 }
 
@@ -523,6 +524,8 @@ margin-top: 5px;
       /* height: 100vh; */
       margin-top: 2px;
     }
+
+
    
   
 
@@ -532,6 +535,10 @@ margin-top: 5px;
       margin-top: 3%;
       position: relative;
       top: 80px;
+    }
+
+    .zeraki-about1{
+      text-align: right;
     }
   
     

@@ -682,7 +682,10 @@ h3.name{
 /* Example CSS to apply the styles to the photo-gallery class */
 
 
-
+.remove-blue-in-links a{
+  font-size: 16px;
+  color: rgb(75, 72, 72)!important;
+}
   
   
   

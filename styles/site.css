@@ -272,18 +272,16 @@ margin-top: 5px;
 
 .gallery-photo {
   display: flex;
-  border: 2px solid transparent;
+  border: 0.5px solid transparent !important;
   border-radius: 5px;
   box-shadow: 0 0 0 2px rgba(0,0,0,0.5);
-  transition: box-shadow 0.5s;
+  transition: box-shadow 0.8ps;
   margin: 10px;
   border-radius: 3px;
   background-color: white;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
- 
  
 } 
 
